@@ -61,6 +61,7 @@ img:last-of-type {
   left: 0;
   right: 0;
   box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+  z-index: -500;
 }
 
 .title {
@@ -119,5 +120,5 @@ img:last-of-type {
 }
 
 #slide4 {
-  background: #222;
+  background: rgb(161, 29, 29);
 }

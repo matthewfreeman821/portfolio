@@ -20,10 +20,14 @@ h1 {
    font-size: 250%
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
-  font-size: 140%;
-  line-height: 150%;
-  color: #333;
+  font-size: 125%;
+  line-height: 125%;
+  color: rgb(119, 22, 22);
 }
 
 .slide {
@@ -50,7 +54,7 @@ img {
 }
 
 img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-7deg);
 }
 
 .slide:before {
@@ -94,7 +98,7 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("https://lorempixel.com/640/480/abstract/6/");
+  background-image: url("https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   z-index:2;
 }
 
@@ -105,20 +109,21 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("https://lorempixel.com/640/480/abstract/4/");
+  background-image: url("https://images.pexels.com/photos/880687/pexels-photo-880687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 {
-  background-image: url("https://lorempixel.com/640/480/abstract/3/");
+  background-image: url("https://images.pexels.com/photos/635927/pexels-photo-635927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   z-index:2;
 }
 
 #slide3:before {
-  background-image: url("https://lorempixel.com/640/480/abstract/5/");
+  background-image: url("https://images.pexels.com/photos/1083618/pexels-photo-1083618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide4 {
-  background: rgb(161, 29, 29);
+  background: rgb(53, 51, 51);
+  font-size: 125%;
 }

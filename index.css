@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+/* @import url(https://fonts.googleapis.com/css?family=Nunito); */
 
 html {
   height: 100%;
@@ -13,11 +13,13 @@ body {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: Nunito;
+  /* font-family: Nunito; */
+  font-family: 'Rakkas', cursive;
 }
 
 h1 {
-   font-size: 250%
+   font-size: 250%;
+   letter-spacing: 1.1rem;
 }
 
 h2 {
@@ -27,7 +29,7 @@ h2 {
 p {
   font-size: 125%;
   line-height: 125%;
-  color: rgb(119, 22, 22);
+  color: rgb(247, 60, 60);
 }
 
 .slide {

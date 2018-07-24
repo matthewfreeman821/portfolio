@@ -13,7 +13,7 @@ body {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: 'Rakkas', cursive;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 h1 {
@@ -104,7 +104,8 @@ img, .first {
 }
 
 #title {
-  background-image: url("https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  /* background-image: url("https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+  background-color: lightslategray;
   z-index:2;
 }
 
@@ -115,17 +116,20 @@ img, .first {
 }
 
 #slide1:before {
-  background-image: url("https://images.pexels.com/photos/880687/pexels-photo-880687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: lightslategray;
+  /* background-image: url("https://images.pexels.com/photos/880687/pexels-photo-880687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 {
-  background-image: url("https://images.pexels.com/photos/635927/pexels-photo-635927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: lightslategray;
+  /* background-image: url("https://images.pexels.com/photos/635927/pexels-photo-635927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
   z-index:2;
 }
 
 #slide3:before {
-  background-image: url("https://images.pexels.com/photos/1083618/pexels-photo-1083618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: lightslategray;
+  /* background-image: url("https://images.pexels.com/photos/1083618/pexels-photo-1083618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
   transform: translateZ(-1px) scale(2);
 }
 

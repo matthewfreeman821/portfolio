@@ -98,6 +98,11 @@ img, .first {
   text-shadow: 0 2px 2px #000;
 }
 
+.fab {
+  font-size: 250%;
+  padding-right: 10%;
+}
+
 #title {
   background-image: url("https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   z-index:2;
